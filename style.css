@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.blue{
+    color:#003366;
+}
+/*Main container*/
+.container{
+   padding: 0;
+} 
+/*page head*/
+.profile{
+    display: flex;
+    justify-content: center;
+} 
+/* yangchen */
+.right{
+    padding: 30px 0 30px 0;
+    width: 50%;
+    height: 100%;
+    background: #fdf5e6;
+    text-align: end;
+}
+.profile img{
+    margin:0 0 3em 6em;
+    position: relative;
+    right: 200px;
+    width:142px;
+    height:150px;
+    border-radius: 80px; 
+    border-radius: 999px;
+    box-shadow: 
+    rgba(78, 77, 77, 0.287) 0px 54px 55px,  
+    rgba(68, 67, 67, 0.109) 0px -12px 30px,  
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.185) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.20) 0px -3px 5px;
+}
+button{
+    margin-right: 1em;
+    padding: 0.5em;
+    background-color: #003366;
+    color:#fdf5e6;
+    border-radius: .5em;
+    position: relative;
+    right: 150px;
+}
+/*tsering*/
+.left{
+    padding: 30px 0 30px 0;
+    color: #fdf5e6;
+    width: 50%;
+    background: #003366;
+}
+.left p{
+    padding: 3em;
+}  
+
+/*competences content*/
+.competence{
+    margin: 50px 0px 50px 0;
+    padding: 0px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+    padding-left: 1em;
+}
+.logo{
+    height: 3em;
+}
+.logom{
+    height: 3.2em
+}
+.logob{
+    height: 3.6em;
+}
+/*Projects*/
+.projects{
+    background: #fdf5e6;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 6em;
+}
+.row1{
+  margin: 2em 0;
+}
+.card{
+    width: 400px;
+    box-shadow: .4em .4em .5em .5em #888888;
+    margin: 1em;
+}
+.card img{
+    width: 300px;
+}
+.cardText{
+    width: 330px;
+    padding: 20px;
+    text-align: justify;
+    margin: 0 10px;
+}
+span{
+    font-weight: bold;
+    line-break: auto ;
+}
+/*footer*/
+footer {
+    padding: 1em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#003366;
+    color: white;
+  }
