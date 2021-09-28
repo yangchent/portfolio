@@ -63,9 +63,10 @@ button{
 
 /*competences content*/
 .competence{
-    margin: 50px 0px 50px 0;
+    margin: 50px 5px 50px 5px;
     padding: 0px;
     text-align: center;
+    min-height: 200px;
 }
 .flex{
     display: flex;
@@ -98,6 +99,7 @@ li{
     width: 400px;
     box-shadow: .4em .4em .5em .5em #888888;
     margin: 1em;
+    border-radius: 8px;
 }
 .card img{
     width: 300px;
