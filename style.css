@@ -48,6 +48,7 @@ button{
     border-radius: .5em;
     position: relative;
     right: 150px;
+    cursor: pointer;
 }
 /*tsering*/
 .left{
