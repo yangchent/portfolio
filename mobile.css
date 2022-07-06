@@ -24,7 +24,7 @@ h1{
 }
 /*page head*/
 .profile{
-    min-height: 100vh;
+    min-height: 75vh;
     display: flex;
 } 
 /* yangchen */
@@ -41,12 +41,7 @@ h1{
     height:130px;
     border-radius: 80px; 
     border-radius: 999px;
-    box-shadow: 
-    rgba(78, 77, 77, 0.287) 0px 54px 55px,  
-    rgba(68, 67, 67, 0.109) 0px -12px 30px,  
-    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
-    rgba(0, 0, 0, 0.185) 0px 12px 13px, 
-    rgba(0, 0, 0, 0.20) 0px -3px 5px;
+    box-shadow: 0 0 50px #adb5bd;
 }
 button{
     margin: .5em;
@@ -79,7 +74,7 @@ button{
     margin: 1em 0.5em;
     padding: 0.2em;
     text-align: center; 
-    min-height: 80vh;
+    min-height: 60vh;
 }
 .competence h1{
     padding: 1em;

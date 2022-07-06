@@ -79,6 +79,7 @@ button{
 .flexitems{
    padding-top: 2rem;
    align-items: center;
+   flex-wrap: wrap;
 }
 .logodjango{
     padding-left:  1em;
