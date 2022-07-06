@@ -3,7 +3,6 @@
 body{
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: small;
 }
 .blue{
     color:#003366;
@@ -14,8 +13,6 @@ body{
 .center{
     display: flex;
     justify-content: center;
-    left: auto;
-    right:auto;
 }
 /*Main container*/
 .container{
@@ -83,11 +80,6 @@ button{
    padding-top: 2rem;
    align-items: center;
 }
-
-.logoFooter{
-    padding-left: 1em;
-    height: 1.5em;
-}
 .logodjango{
     padding-left:  1em;
     height: 2.5em;
@@ -111,8 +103,7 @@ button{
 /*Projects*/
 .projects{
     text-align: center;
-    margin-bottom: 1.5em;
-    padding: .5em;
+    padding: 2em 1em 6em 1em;
     background: #fdf5e6; 
 }
 .row1{
@@ -148,6 +139,28 @@ footer {
     background-color:#003366;
     color: white;
   }
+  .logoFooter{
+    margin: .5em;
+    height: 1.5em;
+}
   footer ul {
     list-style-type: none;
+}
+.footerRight{
+    padding: .6em 0 0 0;
+    width: 50%;
+    background: #003366;
+}
+.footerRight p{
+    color:#fdf5e6;
+    text-align:left;
+}
+.footerRight a{
+    padding-top:0.6em;
+}
+.footerLeft{
+    padding: .5em 0 0 0;
+    color: #fdf5e6;
+    width: 50%;
+    background: #fdf5e6;
 }
