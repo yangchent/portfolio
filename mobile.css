@@ -162,6 +162,9 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color:#fff;
+    background-color:#003366;
     color: white;
   }
+  footer ul {
+    list-style-type: none;
+}

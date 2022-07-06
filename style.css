@@ -88,10 +88,6 @@ button{
     padding-left: 1em;
     height: 3em;
 }
-.logoFooter{
-    margin: 1em;
-    height: 1.5em;
-}
 .logos{
     margin: 1em;
     height: 3em;
@@ -147,6 +143,22 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color:#fff;
-    color: white;
   }
+.logoFooter{
+    margin: .5em;
+    height: 1.5em;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0 1em;
+}
+.footerRight{
+    width: 50%;
+    background: #003366;
+    text-align: end;
+}
+.footerLeft{
+    color: #fdf5e6;
+    width: 50%;
+    background: #fdf5e6;
+}
