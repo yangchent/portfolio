@@ -20,7 +20,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" media="screen and (min-width:767px)" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:767px)" href="tablet.css">
     <link rel="stylesheet" media="screen and (max-width:490px)" href="mobile.css">
+    
     <link rel="icon" type="favicon-png" href="./logos/y.png">
 </head>
 <body>
@@ -28,9 +30,11 @@
 
         <section class="profile">
             <div class="right blue">
-                <h1>YANGCHEN</h1>   
+                <h1>YANGCHEN</h1>  
+                <div class="center">
                 <img src="image/yangchen.jpg" alt="profilePicture" />
-                <div class="">
+                </div> 
+                <div class="center">
                                           
                         <button class="button" onclick="location.href='image/YangchenCVEng.pdf'">CV English</button>
                         <button class="button" onclick="location.href='image/YangchenCVFR.pdf'">CV French</button> 
@@ -46,33 +50,22 @@
 
         <div class="competence blue">
             <h1>COMPETENCE</h1>
-            <div class="flex">
-                <div class="flexLeft">
-                    <h3>FrontEnd : </h3>
-                    <img src="logos/HTML5.png" class="logob">
-                    <img src="logos/CSS3.png" class="logom">
-                    <img src="logos/JavaScript.png" class="logos">              
-                </div>
-                <div class="flexRight">
-                    <h3>BackEnd : </h3> 
-                    <img src="logos/Node js.png" class="logos">
-                    <img src="logos/django-logo.png" class="logo">
-                </div>
+
+            <div class="flexitems center">
+                <img src="logos/HTML5.png" class="logob">
+                <img src="logos/CSS3.png" class="logocss">
+                <img src="logos/JavaScript.png" class="logos">       
+                <img src="logos/React.png" class="logos">
+                <img src="logos/Node js.png" class="logos">
+                <img src="logos/django-logo.png" class="logodjango">
             </div>
-            <div class="flex">
-                <div class="flexLeft">
-                    <h3>FrameWorks : </h3>
-                    <img src="logos/Bootstrap.png" class="logos">              
-                    <img src="logos/React.png" class="logos">
-                    <img src="logos/django-logo.png" class="logo">
-                    <img src="logos/tailwind_logo.png" class="logoxl">
-                </div>
-                <div class="flexRight">
-                    <h3>DataBase :</h3>
-                    <img src="logos/MongoDB_Logo.png" class="logos">
-                    <img src="logos/LogoPostgreSql.png" class="logob">
-                    <img src="logos/Sqlite_banner.gif" class="logos">
-                </div>
+
+            <div class="flexitems center">
+                <img src="logos/Bootstrap.png" class="logos">              
+                <img src="logos/tailwind_logo.png" class="logoxl">
+                <img src="logos/MongoDB_Logo.png" class="logos">
+                <img src="logos/LogoPostgreSql.png" class="logoxl">
+                <img src="logos/Sqlite_banner.gif" class="logos">
             </div>
         </div>
     

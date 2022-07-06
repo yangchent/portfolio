@@ -14,6 +14,8 @@ body{
 .center{
     display: flex;
     justify-content: center;
+    left: auto;
+    right:auto;
 }
 /*Main container*/
 .container{
@@ -34,19 +36,12 @@ h1{
     text-align: end;
 }
 .profile img{
-    display:flex;
-    justify-content: center;
-    margin-bottom: 2em;
+    margin: 3em 0;
     width:125px;
     height:130px;
     border-radius: 80px; 
     border-radius: 999px;
-    box-shadow: 
-    rgba(78, 77, 77, 0.287) 0px 54px 55px,  
-    rgba(68, 67, 67, 0.109) 0px -12px 30px,  
-    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
-    rgba(0, 0, 0, 0.185) 0px 12px 13px, 
-    rgba(0, 0, 0, 0.20) 0px -3px 5px;
+    box-shadow: 0 0 50px #adb5bd;
 }
 button{
     margin: .5em;
@@ -78,65 +73,53 @@ button{
 .competence{
     margin: 1em 0.5em;
     padding: 0.2em;
-    text-align: center; 
+    text-align: center;
     min-height: 80vh;
 }
-.competence h3{
-    padding: 1em;
+.competence h1{
+    padding: 2em;
 }
-/* .troubled{
-    display:flex;
+.flexitems{
+   padding-top: 2rem;
+   align-items: center;
+}
 
-} */
-.flexLeft{
-    padding: 1em 0 0 0;
-}
-.flexRight{
-    padding: 1em 0 0 0;   
-}
-.flexx{
-    display: flex;
-    align-items: center;
-}
 .logoFooter{
     padding-left: 1em;
     height: 1.5em;
 }
-.logo{
-    padding-left:  0.5em;
-    height: 1.3em;
+.logodjango{
+    padding-left:  1em;
+    height: 2.5em;
 }
 .logos{
-    padding-left:  0.5em;
-    height: 1.9em;
-}
-.logom{
-    padding-left: 0.5em;
-    height: 2em
+    padding-left:  1em;
+    height: 3em;
 }
 .logocss{
-    padding-left: 0.5em;
-    height: 2.3em
+    padding-left: 1.4em;
+    height: 3.6em;
 }
 .logob{
-    padding-left: 0.5em;
-    height: 2.8em;
+    padding-left: 1em;
+    height: 4em;
 }
 .logoxl{
-    padding-left: 0.5em;
-    height:5em;
+    padding-left: 1em;
+    height:5.6em;
 }
 /*Projects*/
 .projects{
     text-align: center;
     margin-bottom: 1.5em;
     padding: .5em;
-    background: #fdf5e6;
+    background: #fdf5e6; 
 }
 .row1{
-  margin: 1em 0;
-  flex-direction: column;
-}
+    margin: 2em 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 .card{
     width: 300px;
     box-shadow: .3em .3em .2em .2em #888888;

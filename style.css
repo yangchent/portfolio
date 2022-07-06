@@ -10,6 +10,10 @@ body{
 .flex{
     display: flex;
 }
+.center{
+    display: flex;
+    justify-content: center;
+}
 /*Main container*/
 .container{
    padding: 0;
@@ -31,29 +35,21 @@ section h1{
     text-align: end;
 }
 .profile img{
-    margin:4em 0 3em 6em;
-    position: relative;
-    right: 200px;
+    margin:2em;
     width:142px;
     height:150px;
     border-radius: 80px; 
     border-radius: 999px;
-    box-shadow: 
-    rgba(78, 77, 77, 0.287) 0px 54px 55px,  
-    rgba(68, 67, 67, 0.109) 0px -12px 30px,  
-    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
-    rgba(0, 0, 0, 0.185) 0px 12px 13px, 
-    rgba(0, 0, 0, 0.20) 0px -3px 5px;
+    box-shadow: 0 0 50px #adb5bd;
 }
 button{
-    margin-right: 1em;
+    margin: 2em;
     padding: 0.5em;
     background-color: #fdf5e6;
     color:#003366;
     border-radius: .5em;
     border-color: #003366;
     position: relative;
-    right: 150px;
     cursor: pointer;
 }
 .button:hover {
@@ -80,46 +76,39 @@ button{
     text-align: center;
     min-height: 80vh;
 }
-.competence h3{
+.competence h1{
     padding: 1em;
+}
+.flexitems{
+    padding-top: 4rem;
+    align-items: center;
+ }
 
-}
-.flexLeft{
-    display: flex;
-    align-items: center;
-    padding: 6em 0 0 0;
-    width:50%;
-}
-.flexRight{
-    display: flex;
-    align-items: center;
-    padding: 5em 0 0 0;
-    width:50%;
-}
-.logo{
+.logodjango{
     padding-left: 1em;
-    height: 1.5em;
+    height: 3em;
 }
 .logoFooter{
-    padding-left: 1em;
+    margin: 1em;
     height: 1.5em;
 }
 .logos{
-    padding-left: 1em;
-    height: 2.7em;
+    margin: 1em;
+    height: 3em;
 }
-.logom{
-    padding-left: 1em;
-    height: 3.2em
+.logocss{
+    margin: 2em;
+    height: 3.6em;
 }
 .logob{
     padding-left: 1em;
-    height: 3.6em;
+    height: 4.3em;
 }
 .logoxl{
-    padding-left: 1em;
-    height:5.5em;
+    margin-left: 1em;
+    height:5.7em;
 }
+
 /*Projects*/
 .projects{
     width: 100%;
@@ -130,6 +119,8 @@ button{
 }
 .row1{
   margin: 2em 0;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .card{
     width: 400px;
