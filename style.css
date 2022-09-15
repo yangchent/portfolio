@@ -1,0 +1,36 @@
+*, ::after, :before {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body, html {
+  background-image: url("/img/bg.png");
+  background-repeat: no-repeat;
+  background-size : cover;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  max-width: 1024px;
+  margin: 0 auto;
+  }
+
+.profile{
+  margin: 20px 0;
+  border-radius: 20px;
+  background-color: #fdf7fa;
+
+}
+.profile img{
+  margin: 20px;
+  width: 150px;
+}
+.flex{
+  display: flex;
+}
