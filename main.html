@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
     content="Portfolio of a web developer in french. Je suis capable de créer une application web, de la mise en place de la base de données et du serveur, jusqu’à la structure de l’interface client." >
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Karla:wght@300;400;600&family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
@@ -31,135 +31,114 @@
             </div>           
         </section>
 
-        <div class="skills">
+        <section class="skills">
             <p class="heading">Skills and Tools</p>
 
-            <div class="flexitems center">
-                <img src="logos/HTML5.png" class="logob">
-                <img src="logos/CSS3.png" class="logocss">
-                <img src="logos/JavaScript.png" class="logos">       
-                <img src="logos/React.png" class="logos">
-                <img src="logos/Node js.png" class="logos">
-                <img src="logos/django-logo.png" class="logodjango">
+            <div class="line1">
+                <img src="icons/Group 1.png" class="logob">
+                <img src="icons/Group 2.png" class="logocss">
+                <img src="icons/Group 3.png" class="logos">       
+                <img src="icons/Group 4.png" class="logos">
+                <img src="icons/Group 5.png" class="logos">
+                <img src="icons/Group 6.png" class="logodjango">
             </div>
 
-            <div class="flexitems center">
-                <img src="logos/Bootstrap.png" class="logos">              
-                <img src="logos/tailwind_logo.png" class="logoxl">
-                <img src="logos/MongoDB_Logo.png" class="logos">
-                <img src="logos/LogoPostgreSql.png" class="logoxl">
-                <img src="logos/sqlite_banner.gif" class="logos">
+            <div class="line2">
+                <img src="icons/Group 7.png" class="logos">              
+                <img src="icons/Group 8.png" class="logoxl">
+                <img src="icons/Group 9.png" class="logos">
+                <img src="icons/Group 10.png" class="logoxl">
+                <img src="icons/Group 11.png" class="logos">
             </div>
-        </div>
+        </section>
     
-        <div class="projects blue">
-            <h1>PROJETS</h1>
-            <div class="row1 flex">
-                <div class="card">
-                    <h3>TibetParis frontend</h3>
-                    <a href="https://tibetparis.herokuapp.com/" target="_blank">
-                        <img src="projects/tibetparis.png" alt="tibetparis_image" class="zoom">
-                    </a>
-                    <div class="cardText">
-                        <p> Le projet consiste à donner des informations sur les boutiques, les restaurants et les ONG tibétaines. Cliquez sur l'image pour visiter le site. Il s'agit d'un projet front-end soutenu par l'api django.
-                        <h3>Technologies utilisées :</h3> Vscode React (+hooks) TailwindCss CSS GitHub</p>
-                
-                    </div>  
-                </div>
-                <div class="card">
-                    <h3>TibetParis Rest Api</h3>
-                    <a href="https://tibetparis-api.herokuapp.com/restaurants/" target="_blank">
-                        <img src="projects/rest_api.png" alt="django_api_image" class="zoom">
-                    </a>
-                    <div class="cardText">
-                        <p> Il s'agit d'une Api Django REST avec la liste des restaurants, boutiques et ong. Pour voir les ong, remplacez l'adresse du navigateur '/restaurants/' par /shops/ et pour les ONG, remplacez '/ngos/'  
-                        <h3>Technologies utilisées :</h3> Vscode Django REST Framework GitHub</p>
-                
-                    </div>  
-                </div>
+        <section class="projects">
+            <p class="heading">Projects</p>
+            
+            <div class="card">
+                <div class="flex">
 
-
-                <div class="card">
-                    <h3>Moovice</h3>
-                    <a href="https://github.com/yangchent/digitous_react/tree/master/chapter-6/moovice" target="_blank">
-                        <img src="projects/moovice.png" alt="moovice_image" class="zoom">
-                    </a>
-                    <div class="cardText">
-                        <p> Une application qui utilise une API qui vous permet de découvrir les films les plus populaires et les sorties de la semaine. Elle permet également de choisir un film et de le sauvegarder dans les favoris.
-                        <h3>Technologies utilisées :</h3>  Vscode React (+hooks) Bootstrap GitHub</p>
-                    </div>
-                </div >
-                <div class="card">
-                    <h3>React Elsy</h3>
-                    <a href="https://github.com/yangchent/digitous_react/tree/master/Elsy" target="_blank">
-                        <img src="projects/Elsy.png" alt="elsy_image" class="zoom">
-                    </a>
-                    <div class="cardText">
-                        <p>Une application qui calcule l'eau qu'il faut boire en fonction de la température, le nombre de pas et le rythme cardiaque
-                        Projet réalisé en individuel.
-                        <h3>Technologies utilisées :</h3>Vscode React CSS3 Bootstrap GitHub </p>
-                    </div>
+                    <h2>React App</h2>
+                    <button>
+                        <a href="https://tibetparis.herokuapp.com/" target="_blank">
+                            view
+                        </a>
+                    </button>
                 </div>
-                <div class="card">
-                    <h3>Projet Binone</h3>
-                    <a href="https://github.com/yangchent/konexio-Cuisine" target="_blank">
-                        <img src="projects/cuizine.png" alt="cuisine_image" class="zoom">
-                    </a>
+                <div class="flex">
                     <div class="cardText">
-                        <p> Reproduire à l'identique un site de cuisine responsive selon un modèle, en utilisant les classes Bootstrap et en évitant un maximum l'utilisation de CSS.
-                        <h3>Technologies utilisées :</h3> Vscode Html Css Bootstrap GitHub
-                        </p>
-                    </div>
+                        <p> Personal projectThe project consists of providing information on Tibetan stores, restaurants and NGOs. Click on the image to visit the site. This is a front-end project supported by the django api.</p> 
+                        <p><span>Tools :</span>
+                        Vscode React (+hooks) TailwindCss CSS GitHub</p>                
+                    </div> 
+                    <div>                        
+                        
+                        <img src="img/reactApp.png" alt="React app image">
+                    </div> 
                 </div>
             </div>
-            <div class="row1 flex">
-                <div class="card">
-                    <h3>Project FullStack</h3>
-                    <a href="https://github.com/yangchent/digitous_react/tree/master/chapter_05/countries" target="_blank">
-                        <img src="projects/fullstack.png" alt="fullstack_image" class="zoom" >
-                    </a>
-                    <div class="cardText">
-                        <p> Une application appelée "countries", qui vous permet de rechercher un pays par son nom ou sa capitale et de voir toutes les informations sur le pays dans le résultat de la recherche.
-                        <h3>Technologies utilisées :</h3>Vscode JavaScript JQuery Express Json GitHub </p>
-                    </div>
-                </div >
-                <div class="card">
-                    <h3>FullStack</h3>
-                    <a href="https://github.com/yangchent/digitous_react/tree/master/poke-context" target="_blank">
-                        <img src="projects/pokemon.png" alt="pokemon_image" class="zoom">
-                    </a>
-                    <div class="cardText">
-                        <p> En utilisant une api pour Pokemon, vous devez vous connecter avec un nom et password qui mène à la page où vous pouvez avoir accès pour choisir le Pokemon<h3>Technologies utilisées :</h3>Vscode React Express Bootstrap GitHub </p>
-                    </div>
+            <div class="card">
+                <div class="flex">
+                    <h2>Django REST API</h2> 
+                    <button>
+                        <a href="https://tibetparis-api.herokuapp.com/restaurants/" target="_blank">
+                            view
+                        </a>
+                    </button>
                 </div>
-                <div class="card">
-                    <h3>Group Project</h3>
-                    <a href="https://github.com/yangchent/MemoryGame" target="_blank">
-                        <img src="projects/g1a.png" alt="memory_game_image" class="zoom" >
-                    </a>
+                <div class="flex">
+                    <div>
+                        <img src="img/djangoApi.png" alt="React app image">
+                    </div>
                     <div class="cardText">
-                        <p> Le but du jeu est de trouver la bonne paire en cliquant sur une carte. La partie est gagnée lorsque toutes les cartes sont appariées.
-                        <h3>Technologies utilisées :</h3> Vscode React (+hooks) CSS GitHub</p>
-                
+                        <p> This is a Django REST Api with the list of restaurants, stores and ngos in Paris. To see the list of  ngos, replace the browser address '/restaurants/' with /shops/ and for the NGOs, replace '/ngos/' </p>
+                        <p><span>Tools :</span> Vscode Django REST Framework GitHub </p>
                     </div>  
                 </div>
             </div>
-        </div>
+
+
+            <div class="card">
+                <div class="flex">
+                    <h2>Memory Game</h2>
+                    <button>
+                        <a href="https://try-memorygame.netlify.app" target="_blank">
+                            view
+                        </a>
+                    </button>
+                </div>
+                
+                <div class="flex">
+                    <div>
+                        <p> This project was a group project during my training at Konexio. I wanted to redo and learn another way. I found a tutorial by The Net Ninja. As i followed the video. </p>
+                            <p><span>Tools :</span> Vscode React (+hooks) TailwindCss CSS GitHub</p>
+                    </div>
+                    <div>
+                        
+                        <img src="img/memorygame.png" alt="React app image">
+                    </div>
+                </div>
+            </div >    
+        </section>
+
+        <section class="contact">
+            <p>Contact :</p>
+            <a href="tel:0768541059"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="52px"   height="1.5em" viewBox="0 0 52 52" enable-background="new 0 0 52 52" xml:space="preserve">
+                    <path fill="#fdf5e6" d="M48.5,37.8l-6.1-4.9c-1.4-1.1-3.4-1.2-4.8-0.1l-5.2,3.8c-0.6,0.5-1.5,0.4-2.1-0.2l-7.8-7l-7-7.8  c-0.6-0.6-0.6-1.4-0.2-2.1l3.8-5.2c1.1-1.4,1-3.4-0.1-4.8l-4.9-6.1c-1.5-1.8-4.2-2-5.9-0.3L3.2,8.3C2.4,9.1,2,10.3,2,11.4  c0.5,10.2,5.1,19.9,11.9,26.7c6.8,6.8,16.5,11.4,26.7,11.9c1.1,0.1,2.2-0.4,3-1.2l5.2-5.2C50.5,42,50.4,39.2,48.5,37.8z"/>
+                    </svg>
+            </a>
+            <a href = "mailto: gyachungriom@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="52px" height="1.5em" viewBox="0 0 52 52" enable-background="new 0 0 52 52" xml:space="preserve">
+                    <g><path fill="#fdf5e6" d="M24.9,30.1c0.6,0.6,1.5,0.6,2.1,0l22.6-21C50.1,8.3,50,7,48.4,7L3.6,7.1c-1.2,0-2.2,1.1-1.3,2.1L24.9,30.1z   "/><path fill="#fdf5e6" d="M50,17.3c0-1-1.2-1.6-2-0.9L30.3,32.7c-1.2,1.1-2.7,1.7-4.3,1.7s-3.1-0.6-4.3-1.6L4.1,16.4   c-0.8-0.7-2-0.2-2,0.9C2,21.8,2,34,2,40c0,2.2,1.8,4,4,4h40c2.2,0,4-1.8,4-4C50,34,50,21.8,50,17.3z"/>
+                    </g>
+                    </svg>
+            </a>
+        </section>
+           
+        
         <footer class="flex">
             <div class="footerRight">
 
-                <div class="center">
-                    <p>Contact :</p>
-                    <a href="tel:0768541059"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="52px"   height="1.5em" viewBox="0 0 52 52" enable-background="new 0 0 52 52" xml:space="preserve">
-                            <path fill="#fdf5e6" d="M48.5,37.8l-6.1-4.9c-1.4-1.1-3.4-1.2-4.8-0.1l-5.2,3.8c-0.6,0.5-1.5,0.4-2.1-0.2l-7.8-7l-7-7.8  c-0.6-0.6-0.6-1.4-0.2-2.1l3.8-5.2c1.1-1.4,1-3.4-0.1-4.8l-4.9-6.1c-1.5-1.8-4.2-2-5.9-0.3L3.2,8.3C2.4,9.1,2,10.3,2,11.4  c0.5,10.2,5.1,19.9,11.9,26.7c6.8,6.8,16.5,11.4,26.7,11.9c1.1,0.1,2.2-0.4,3-1.2l5.2-5.2C50.5,42,50.4,39.2,48.5,37.8z"/>
-                            </svg>
-                    </a>
-                    <a href = "mailto: gyachungriom@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="52px" height="1.5em" viewBox="0 0 52 52" enable-background="new 0 0 52 52" xml:space="preserve">
-                            <g><path fill="#fdf5e6" d="M24.9,30.1c0.6,0.6,1.5,0.6,2.1,0l22.6-21C50.1,8.3,50,7,48.4,7L3.6,7.1c-1.2,0-2.2,1.1-1.3,2.1L24.9,30.1z   "/><path fill="#fdf5e6" d="M50,17.3c0-1-1.2-1.6-2-0.9L30.3,32.7c-1.2,1.1-2.7,1.7-4.3,1.7s-3.1-0.6-4.3-1.6L4.1,16.4   c-0.8-0.7-2-0.2-2,0.9C2,21.8,2,34,2,40c0,2.2,1.8,4,4,4h40c2.2,0,4-1.8,4-4C50,34,50,21.8,50,17.3z"/>
-                            </g>
-                            </svg>
-                    </a>
-                </div>
+                
             </div>
             <div class="footerLeft">
                 <ul class="center">

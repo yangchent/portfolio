@@ -21,6 +21,14 @@ body, html {
 p { 
   margin:.5rem; 
 }
+h2{
+  margin: 0;
+  padding:0;
+}
+a{
+  text-decoration: none;
+  color: #131313;
+}
 .heading{
   font-family: 'Alex Brush', cursive;
   font-size: 3rem;
@@ -35,9 +43,7 @@ p {
     padding: 1.2rem 0 5rem 0;
   }
 .nav a{
-  text-decoration: none;
   font-size: 20px;
-  color: #7d7d7d;
   padding-left: 2rem;
 }
 .profile{
@@ -45,7 +51,7 @@ p {
   padding: 2rem;
   margin: 5rem 0 ;
   border-radius: .6rem;
-  background-color: rgba(253,247,250, 0.3) ;
+  background-color: rgba(249,234,237,0.60) ;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .profile img{
@@ -66,42 +72,107 @@ p {
   padding: 5rem;
   margin: 5rem 0 ;
   border-radius: .6rem;
-  background-color: rgba(253,247,250, 0.3) ;
+  background: rgb(246,227,237);
+  background: linear-gradient(180deg, rgba(246,227,237,1) 0%, rgba(253,245,238,1) 100%); 
+  text-align: center;
+}
+.line1, .line2{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+.card{
+  margin: 5rem 2rem;
+}
+p span{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+button{
+  background-color: #F0C8C9;
+  border: none;
+  border-radius: .2rem;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #fdf4ee;
+}
+button a {
+  font-size: .9rem;
 }
 
 
-// TABLET view
-@media screen and (max-width: 769px) {
+
+
+
+ /* TABLET view */
+
+@media screen and (max-width: 768px) {
   .container{
     max-width: 700px;
     margin: 0 auto;
     }
-    .nav{
+    body {
       padding: .5rem 1rem 5rem 0;
     }
     .profile{
-      padding: 2rem;
+      padding: 1rem;
       margin: 5rem 0 ;
     }
-    
-}
-// MOBILE view
-@media screen and (max-width: 480px) {
-  body{ 
-    background-image: url("/img/mobilebg.png");
-    }
-    .nav{
-      justify-content: center;
-      
-      padding: .5rem 0 5rem 0;
-    }
-    .profile{
-      align-items: center;
-      flex-direction: column;
-      padding: 1rem;
-      margin: 1rem ;
-      border-radius: .4rem;
+    .right, .left {
+      margin: 2rem 0.5rem;
     }
   
+    
+}
+/*  MOBILE view */
+@media screen and (max-width: 480px) {
+  body, html {
+    background-image: url("/img/mobilebg.png");
+  }
+  .container{
+    max-width:45rem;
+    margin: 0 auto;
+    }
+    .heading{
+      font-size: 1.3rem;
+    }
+  .nav{
+    justify-content: center;
+    padding: .5rem 0 5rem 0;
+  }
+  .profile{
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem ;
+    border-radius: .4rem;
+  }
+  .profile img{
+    width: 8rem;
+    margin:0;
+  }
+  .right, .left {
+    margin: 0;
+  }
+  .skills{
+    padding: 1rem;
+    margin: 5rem 0 ;
+  }
+  .skills .heading{
+    font-size: 2.5rem;
+  }
+  .skills img{
+    padding-top: 2rem;
+  }
+  .line1, .line2{
+    flex-wrap: wrap;
+
+  }
 }
