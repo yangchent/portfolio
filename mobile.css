@@ -1,4 +1,5 @@
-body{ 
+@media(max-width:500px;){
+  body{ 
     background-image: url("/img/mobilebg.png");
     background-repeat: no-repeat;
     background-size : cover;
@@ -8,3 +9,4 @@ body{
   .container{
       
     }
+}
