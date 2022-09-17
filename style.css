@@ -106,11 +106,103 @@ button:hover {
 button a {
   font-size: .9rem;
 }
+.sideline{
+  padding: 5rem;
+  margin: 10rem 0 ;
+  border-radius: .6rem;
+  background: rgb(246,227,237);
+  background: linear-gradient(180deg, rgba(246,227,237,1) 0%, rgba(253,245,238,1) 100%); 
+  text-align: center;
+}
+.head02{
+  font-family: 'Alex Brush', cursive;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.cardbox{
+ display: flex;
+ flex-direction: column;
+}
+.cardbox img{
+  max-width: 20rem;
+  height: auto;
+  margin: 1rem;
+}
+.card1{
+  display:flex;
+}
+.collision{
+  background-color: white;
+  border-radius: .5rem;
+  margin: 1rem;
+  min-width: 24rem;
+  min-height: 24rem;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
 
+.nomad{
+  background-color: white;
+  border-radius: .5rem;
+  margin: 1rem;
+  min-width: 24rem;
+  min-height: 24rem;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+.watercolor{
+  background-color: white;
+  border-radius: .5rem;
+  margin: 1rem;
+  min-width: 24rem;
+  min-height: 24rem;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+.seal{
+  background-color: white;
+  border-radius: .5rem;
+  margin: 1rem;
+  min-width: 24rem;
+  min-height: 24rem;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+.contact{
+  margin: 0 0 15rem 0;
+}
+.mailnphone{
+ display : flex;
+ justify-content: center;
+ padding: 1rem;
+}
+.mail{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem 3rem;
+  text-align: center;
+}
+.vline {
+  border-left: .2rem solid #7d7d7d;
+  height: 6rem;
+}
+.phone{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem 3rem;
+  text-align: center;
+}
 
-
-
-
+footer{
+  bottom: 0;
+  padding: 1rem;
+}
  /* TABLET view */
 
 @media screen and (max-width: 768px) {
